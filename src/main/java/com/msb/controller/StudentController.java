@@ -17,16 +17,16 @@ import reactor.core.publisher.Flux;
 @RequestMapping("/api/student")
 public class StudentController {
 
-    private final StudentRepository studentRepository;
-
-    public StudentController (StudentRepository studentRepository) {
-        this.studentRepository = studentRepository;
-    }
-
-    @GetMapping
-    public Flux<Student> index() {
-        return studentRepository.findAll();
-    }
+//    private final StudentRepository studentRepository;
+//
+//    public StudentController (StudentRepository studentRepository) {
+//        this.studentRepository = studentRepository;
+//    }
+//
+//    @GetMapping
+//    public Flux<Student> index() {
+//        return studentRepository.findAll();
+//    }
 
 
 }

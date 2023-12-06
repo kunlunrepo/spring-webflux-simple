@@ -5,3 +5,7 @@ spring:
     url: r2dbc:mysql://192.168.10.30/spring_r2dbc?servverTimezone=Asia/Shanghai
     username: workflow
     password: 123456
+  redis:
+    host: 192.168.10.150
+    port: 6379
+    timeout: 5000

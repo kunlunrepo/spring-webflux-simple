@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-webflux-simple
+  r2dbc:
+    url: r2dbc:mysql://192.168.10.30/spring_r2dbc?servverTimezone=Asia/Shanghai
+    username: workflow
+    password: 123456
